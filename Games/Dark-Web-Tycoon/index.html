@@ -1,0 +1,148 @@
+<!--
+Dark Web Tycoon started 11/9/21
+credits:
+Woody Spivey: creator and a coder
+GJ: coder
+-->
+
+<meta charset="utd-8">
+<meta name="vieport" content="width=device-width"> 
+<title>Gray JN | Games</title>
+<body>
+
+    <header id="header">
+       <div class="container">
+            <div id="name">
+               <h1>Gray JN</h1>
+            </div>
+            <nav>   
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li class="current"><a href="/Games">Games</a></li>
+                    <li><a href="/Tools">Tools</a></li>
+                    <li><a href="/More">More</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <hidden>
+        <button id="hideMenu" onclick="hideMenu();">>> Click Here to Hide/Show this menu <<</button>
+    </hidden>
+
+    <footer2>
+        <p>Gray JN, Copyright &copy; 2022</p>
+    </footer2>
+
+</body>
+
+<link rel="stylesheet" href="/css/style.css">
+<script src="main.js"></script>
+
+<title id="titlebalanceDisplay"></span></title>
+<link rel = "icon" href = "https://s2.coinmarketcap.com/static/img/coins/200x200/1.png" type = "image/x-icon">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="tooltips.css"/>
+
+<!--version 0.4.0-->
+
+<links>
+<br>
+<a>0.4.0</a><br>
+<a href="patchnotes.html" target="_blank">Patch Notes</a><br>
+<a href="https://app.bluecatforms.com/QoPwzqyE/complaints-and-suggestions" target="_blank">Complaint and Sugestion Form</a><br>
+<a href="https://discord.gg/Guvb8q6K" target="_blank">Discord Server<a><br>
+<a>Press Ctr-Shift-R on chromebooks to recive any updates.</a>
+</links>
+
+<balance>
+  $<span id="balanceDisplay"></span><br>
+</balance>
+
+<persecond>
+  <span id="perSecondDisplay"></span>$ per second
+</persecond>
+
+<bitcoin>
+  <button type="button" onclick="bitcoinClick()"><img src="Images/BitcoinImage.png"/></button><br>
+</bitcoin>
+
+<factorys>
+
+  <button id="changeBuy" onclick="changeBuy();">Buy</button>
+  <button id="changeSell" onclick="changeSell();">Sell</button><br>
+
+  <span id="bitCoinUpgradeNumber"></span>
+
+  <span data-text="Each bitcoin upgrade gives you 1 bitcoin per click" class="tooltip">
+  <button style="background-image: url(Images/bitcoin-factory-image.jpg); background-size: cover; padding: 15px 15px; color: white;" type="button" onclick="upgradeBitcoin();">Upgrade Bitcoin $<span id="bitCoinUpgradeCost"></span></button>
+  <span id="bitCoinProfit"></span></span><br>
+
+  <span id="gunFactories"></span>
+
+  <span data-text="Each gun factory gives you 1 bitcoin persecond" class="tooltip">
+  <button style="background-image: url(Images/gun-factroy-image.jfif); background-size: cover; padding: 15px 15px; color: white;" type="button" onclick="upgradeGunFactory();">Buy Gun Factory $<span id="gunFactoryCost"></span></button>
+  <span id="gunFactoryProfit"></span></span><br>
+
+  <span id="bombFactories"></span>
+  
+  <span data-text="Each bomb factory gives you 5 bitcoin per second" class="tooltipbomb">
+  <button style="background-image: url(Images/bomb-factory-image.jfif); background-size: cover; padding: 15px 15px; color: white" type="button" onclick="upgradeBombFactory();">Buy Bomb Factory $<span id="bombFactoryCost"></span></button>
+  <span id="bombFactoryProfit"></span></span><br>
+	<!--sooooo what's it like having nothing better to do that read the source code for a game that looks quite shady-->
+  <span id="humanLeatherFactories"></span>
+
+  <span data-text="Each human leather factory gives you 20 bitcoin persecond" class="tooltip">
+  <button style="background-image: url(Images/humanleather-factory-image.jfif); background-size: cover; padding: 15px 15px; color: white;" type="button" onclick="upgradeHumanLeatherFactory();">Buy Human Leather Factory $<span id="humanLeatherFactoryCost"></span></button>
+  <span id="humanLeatherFactoryProfit"></span></span><br>
+
+  <span id="marijuanaFactories"></span>
+
+  <span data-text="Each marijuana factory gives you 50 bitcoin persecond" class="tooltip">
+  <button style="background-image: url(Images/mariijuana-factory-image.jfif); background-size: cover; padding: 15px 15px; color: white;" type="button" onclick="upgrademarijuanaFactory();">Buy marijuana Factory $<span id="marijuanaFactoryCost"></span></button>
+  <span id="marijuanaFactoryProfit"></span></span><br>
+
+  <span id="cocaineFactories"></span>
+
+  <span data-text="Each cocaine factory gives you 1000 bitcoin persecond" class="tooltip">
+  <button style="background-image: url(Images/cocaine-factory-image.jfif); background-size: cover; padding: 15px 15px; color: white;" type="button" onclick="upgradeCocaineFactory();">Buy Cocaine Factory $<span id="cocaineFactoryCost"></span></button>
+  <span id="cocaineFactoryProfit"></span></span><br>
+
+  <span id="nukeFactories"></span>
+
+  <span data-text="Each nuke factory gives you 5000 bitcoin persecond" class="tooltip">
+  <button style="background-image: url(Images/nuke-factory-image.jpeg); background-size: cover; padding: 15px 15px; color: white;" type="button" onclick="upgradeNukeFactory();">Buy Nuke Factory $<span id="nukeFactoryCost"></span></button>
+  <span id="nukeFactoryProfit"></span></span><br>
+
+</factorys>
+
+<span class="save"><button onclick="save();">Save</button></span>
+<span class="autoSaveToggle"><button id="autoSaveToggle" onclick="autoSaveToggle();">Toggle Auto Save</button></span>
+
+<!--
+<upgradestore>
+  <span data-text="One click gives twice the bitcoin! Cost: $1000" class="tooltipright" id="doubleClickUpgrade">
+    <button onclick="doubleClickUpgrade();">Double click</button>
+  </span>
+</upgradestore>
+
+
+comented out because it causes a dangerous glitch that I don't feel like fixing -->
+
+
+
+
+<!--import-->
+<input class="importexport" type="file" name="inputfile" id="inputfile" onclick="importFile();">
+<br>
+      
+
+<!--export-->
+<span class="importexport"><button onclick="doDownload();">Export Data</button></span>
+
+<script src="cookie-manager.js"></script>
+<script src="facotry-upgrade-buttons.js"></script>
+<script src="refresh-display.js"></script>
+<script src="main.js"></script>
+<script src="importexport.js"></script>
