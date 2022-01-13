@@ -1,28 +1,28 @@
 /*this is the css block for all the factories ssh don't tell anyone I can't spell*/
 factorys {
   position: absolute;
-  top: 20px;
+  top: 90px;
   left: 10px;
 }
 
 /*this is the big bitcoin button in the middle of the screen*/
 bitcoin {
   position: absolute;
-  top: 110px;
+  top: 155px;
   left: 550px;
 }
 
 /*this is that balance display above the bitcoin*/
 balance {
   font-size: 50px;
-  position: relative;
-  top: 20px;
+  position: absolute;
+  top: 70px;
   left: 550px;
 }
 
 .importexport{  
   position: relative;
-  top: -56px;
+  top: 30px;
   left: 1000px;
 }
 
@@ -36,19 +36,19 @@ upgradestore{
 /*this is the save button */
 .save{
   position: absolute;
-  top: 10px;
-  left: 650px;
+  top: 160px;
+  left: 1000px;
 }
 .autoSaveToggle{
   position: absolute;
-  top: 10px;
-  left: 700px;
+  top: 160px;
+  left: 1050px;
 }
 
 /*this is the display that tells you how many bitcoins you get persecond*/
 persecond{
   position: absolute;
-  top: 90px;
+  top: 130px;
   left: 550px;
 }
 
@@ -61,9 +61,9 @@ links{
 footer2{
   bottom:0px;
   position: absolute;
-  padding: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   color:#ffffff;
   background-color: rgb(0,188,212);
   text-align: center;
 }
+
