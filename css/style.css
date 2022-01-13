@@ -59,6 +59,13 @@ header a:hover{
     color:#cccccc;
 }
 
+#gamesheader{
+    background-color: rgb(0,188,212);
+    padding-top: 30px;
+    min-height: 20px;
+    border-bottom: rgb(0, 168, 107) 6px solid;
+}
+
 /* Showcase */
 
 #showcase{
