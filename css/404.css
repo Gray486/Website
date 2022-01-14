@@ -1,0 +1,17 @@
+#sus{
+    font-size: 100px;
+    color: red;
+    font-family: sans-serif;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+#sus2{
+    font-size: 40px;
+    color: black;
+    font-family: sans-serif;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 40%;
+}
