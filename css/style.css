@@ -19,10 +19,10 @@ ul{
 
 /* Header  */
 header, gamesheader{
-    background-color: rgb(0,188,212);
+    background-color: #ff5721;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: rgb(0, 168, 107) 6px solid;
+    border-bottom: rgb(168, 39, 0) 6px solid;
 }
 
 header a, gamesheader a{
@@ -52,7 +52,7 @@ header nav, gamesheader nav{
 }
 
 header .highlight, header .current a, gamesheader .highlight, gamesheader .current a{
-    color: rgb(23, 99, 71);
+    color: rgb(168, 39, 0)
 }
 
 header a:hover{
@@ -87,10 +87,10 @@ footer{
     padding: 10px;
     margin-top: 20px;
     color:#ffffff;
-    background-color: rgb(0,188,212);
+    background-color: #ff5721;
     text-align: center;
 }
-
+ 
 /* Makes links look like normal text */
 .blacklink{
     text-decoration: none;
@@ -109,9 +109,9 @@ footer{
     position: absolute;
     left: 0%;
     top: 0px;
-    background-color: rgb(0,188,212);
+    background-color: #ff5721;
     width: 100%;
-    color: rgb(23, 99, 71);
+    color: rgb(168, 39, 0);
 }
 
 #hideMenu:hover{
