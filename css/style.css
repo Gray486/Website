@@ -12,6 +12,13 @@ body{
     overflow: hidden;
 }
 
+.container2{
+    width:80%;
+    overflow: hidden;
+    position: relative;
+    left: 40%;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -94,7 +101,6 @@ footer{
 /* Makes links look like normal text */
 .blacklink{
     text-decoration: none;
-    font-size: 16px;
     color: black;
 }
 
@@ -116,4 +122,16 @@ footer{
 
 #hideMenu:hover{
     color: #ccccccde;
+}
+
+#gamesdir{
+    font-size: 20px;
+}
+
+.gamesdirimg{
+    height: 200px;
+}
+
+.gameslist{
+    float: left;
 }
