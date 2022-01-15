@@ -13,10 +13,10 @@ body{
 }
 
 .container2{
-    width:80%;
     overflow: hidden;
     position: relative;
-    left: 40%;
+    text-align: center;
+    font-size: 40px;
 }
 
 ul{
@@ -124,12 +124,9 @@ footer{
     color: #ccccccde;
 }
 
-#gamesdir{
-    font-size: 20px;
-}
 
 .gamesdirimg{
-    height: 200px;
+    height: 300px;
 }
 
 .gameslist{
