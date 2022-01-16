@@ -124,12 +124,16 @@ footer{
     color: #ccccccde;
 }
 
-#gamesdir{
-    font-size: 20px;
+#gamesdirads{
+    position:absolute;
+    top: 296px;
+    height: 350px;
 }
 
 .gamesdirimg{
     height: 300px;
+    border: 2px solid black;
+    max-width: 60%;
 }
 
 .gameslist{
