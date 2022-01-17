@@ -100,34 +100,34 @@ function upgradeBitcoin () {
   }
   
   
-  function upgrademarijuanaFactory () {
-    if ((buyActive == "off") && !(marijuanaFactories == 0)){
-      marijuanaFactoryValues = sell(marijuanaFactories, marijuanaFactoryCost, marijuanaFactoryProfit, marijuanaFactoryIncrease);
-      marijuanaFactories = marijuanaFactoryValues[0];
-      marijuanaFactoryCost = marijuanaFactoryValues[1];
-      marijuanaFactoryProfit = marijuanaFactoryValues[2];
+  function upgradeMalewareFactory () {
+    if ((buyActive == "off") && !(malewareFactories == 0)){
+      malewareFactoryValues = sell(malewareFactories, malewareFactoryCost, malewareFactoryProfit, malewareFactoryIncrease);
+      malewareFactories = malewareFactoryValues[0];
+      malewareFactoryCost = malewareFactoryValues[1];
+      malewareFactoryProfit = malewareFactoryValues[2];
     }
-    if (balance >= marijuanaFactoryCost && buyActive == "on") {
-      balance = balance - marijuanaFactoryCost;
-      marijuanaFactories += 1;
-      marijuanaFactoryCost += marijuanaFactoryCost/10;
-      marijuanaFactoryProfit += marijuanaFactoryIncrease;
+    if (balance >= malewareFactoryCost && buyActive == "on") {
+      balance = balance - malewareFactoryCost;
+      malewareFactories += 1;
+      malewareFactoryCost += malewareFactoryCost/10;
+      malewareFactoryProfit += malewareFactoryIncrease;
     }
   }
   
   
-  function upgradeCocaineFactory () {
-    if ((buyActive == "off") && !(cocaineFactories == 0)){
-      cocaineFactoryValues = sell(cocaineFactories, cocaineFactoryCost, cocaineFactoryProfit, cocaineFactoryIncrease);
-      cocaineFactories = cocaineFactoryValues[0];
-      cocaineFactoryCost = cocaineFactoryValues[1];
-      cocaineFactoryProfit = cocaineFactoryValues[2];
+  function upgradePyramidFactory () {
+    if ((buyActive == "off") && !(pyramidFactories == 0)){
+      pyramidFactoryValues = sell(pyramidFactories, pyramidFactoryCost, pyramidFactoryProfit, pyramidFactoryIncrease);
+      pyramidFactories = pyramidFactoryValues[0];
+      pyramidFactoryCost = pyramidFactoryValues[1];
+      pyramidFactoryProfit = pyramidFactoryValues[2];
     }
-    if (balance >=  cocaineFactoryCost && buyActive == "on") {
-      balance = balance - cocaineFactoryCost;
-      cocaineFactories += 1;
-      cocaineFactoryCost += cocaineFactoryCost/10;
-      cocaineFactoryProfit += cocaineFactoryIncrease;
+    if (balance >=  pyramidFactoryCost && buyActive == "on") {
+      balance = balance - pyramidFactoryCost;
+      pyramidFactories += 1;
+      pyramidFactoryCost += pyramidFactoryCost/10;
+      pyramidFactoryProfit += pyramidFactoryIncrease;
     }
   }
 

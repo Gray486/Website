@@ -58,15 +58,6 @@ links{
   left: 250px;
 }
 
-footer2{
-  bottom:0px;
-  position: absolute;
-  margin-top: 10px;
-  color:#ffffff;
-  background-color: rgb(0,188,212);
-  text-align: center;
-}
-
 /* Header */
 /* IF GOING TO USE FOR OTHER GAMES MAKE SURE TO ADJUST THE "msbody" TAG. (msbody stands for "minesweeper body" not to be confused with minebody witch is used for the actual game) */
 .container{

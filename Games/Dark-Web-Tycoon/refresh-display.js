@@ -28,17 +28,17 @@ function refreshDisplay() {
   
     document.getElementById("humanLeatherFactoryProfit").innerHTML = parseInt(humanLeatherFactoryProfit);
   
-    document.getElementById("marijuanaFactories").innerHTML = parseInt(marijuanaFactories);
+    document.getElementById("malewareFactories").innerHTML = parseInt(malewareFactories);
   
-    document.getElementById("marijuanaFactoryCost").innerHTML = parseInt(marijuanaFactoryCost);
+    document.getElementById("malewareFactoryCost").innerHTML = parseInt(malewareFactoryCost);
   
-    document.getElementById("marijuanaFactoryProfit").innerHTML = parseInt(marijuanaFactoryProfit);
+    document.getElementById("malewareFactoryProfit").innerHTML = parseInt(malewareFactoryProfit);
   
-    document.getElementById("cocaineFactories").innerHTML = parseInt(cocaineFactories);
+    document.getElementById("pyramidFactories").innerHTML = parseInt(pyramidFactories);
   
-    document.getElementById("cocaineFactoryCost").innerHTML = parseInt(cocaineFactoryCost);
+    document.getElementById("pyramidFactoryCost").innerHTML = parseInt(pyramidFactoryCost);
   
-    document.getElementById("cocaineFactoryProfit").innerHTML = parseInt(cocaineFactoryProfit);
+    document.getElementById("pyramidFactoryProfit").innerHTML = parseInt(pyramidFactoryProfit);
     
     document.getElementById("nukeFactoryProfit").innerHTML = parseInt(nukeFactoryProfit);
 

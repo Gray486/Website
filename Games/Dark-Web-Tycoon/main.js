@@ -23,14 +23,14 @@ var humanLeatherFactories = 0;
 var humanLeatherFactoryCost = 5000;
 var humanLeatherFactoryProfit = 0;
 var humanLeatherFactoryIncrease = 20;
-var marijuanaFactories = 0;
-var marijuanaFactoryCost = 10000;
-var marijuanaFactoryProfit = 0;
-var marijuanaFactoryIncrease = 50
-var cocaineFactories = 0;
-var cocaineFactoryCost = 50000;
-var cocaineFactoryProfit = 0;
-var cocaineFactoryIncrease = 1000;
+var malewareFactories = 0;
+var malewareFactoryCost = 10000;
+var malewareFactoryProfit = 0;
+var malewareFactoryIncrease = 50
+var pyramidFactories = 0;
+var pyramidFactoryCost = 50000;
+var pyramidFactoryProfit = 0;
+var pyramidFactoryIncrease = 1000;
 var nukeFactories = 0;
 var nukeFactoryCost = 150000;
 var nukeFactoryProfit = 0;
@@ -56,14 +56,14 @@ var allVariables = [
     humanLeatherFactoryCost,
     humanLeatherFactoryProfit,
     humanLeatherFactoryIncrease,
-    marijuanaFactories,
-    marijuanaFactoryCost,
-    marijuanaFactoryProfit,
-    marijuanaFactoryIncrease,
-    cocaineFactories,
-    cocaineFactoryCost,
-    cocaineFactoryProfit,
-    cocaineFactoryIncrease,
+    malewareFactories,
+    malewareFactoryCost,
+    malewareFactoryProfit,
+    malewareFactoryIncrease,
+    pyramidFactories,
+    pyramidFactoryCost,
+    pyramidFactoryProfit,
+    pyramidFactoryIncrease,
     nukeFactories,
     nukeFactoryCost,
     nukeFactoryProfit,
@@ -80,7 +80,7 @@ function bitcoinClick () {
  
 //runs every second and adds up the total profit 
 function idleBalanceIncrease () {
-  totalBitCoinPerSecond = gunFactoryProfit + bombFactoryProfit + humanLeatherFactoryProfit + marijuanaFactoryProfit + cocaineFactoryProfit + nukeFactoryProfit;
+  totalBitCoinPerSecond = gunFactoryProfit + bombFactoryProfit + humanLeatherFactoryProfit + malewareFactoryProfit + pyramidFactoryProfit + nukeFactoryProfit;
   balance += totalBitCoinPerSecond
   //cool thing that loop the function every second
   setTimeout(idleBalanceIncrease, 1000);
@@ -196,21 +196,21 @@ function importFile(){
      ++I
      humanLeatherFactoryIncrease = parseInt(parsedData[I])
      ++I
-     marijuanaFactories = parseInt(parsedData[I])
+     malewareFactories = parseInt(parsedData[I])
      ++I
-     marijuanaFactoryCost = parseInt(parsedData[I])
+     malewareFactoryCost = parseInt(parsedData[I])
      ++I
-     marijuanaFactoryProfit = parseInt(parsedData[I])
+     malewareFactoryProfit = parseInt(parsedData[I])
      ++I
-     marijuanaFactoryIncrease = parseInt(parsedData[I])
+     malewareFactoryIncrease = parseInt(parsedData[I])
      ++I
-     cocaineFactories = parseInt(parsedData[I])
+     pyramidFactories = parseInt(parsedData[I])
      ++I
-     cocaineFactoryCost = parseInt(parsedData[I])
+     pyramidFactoryCost = parseInt(parsedData[I])
      ++I
-     cocaineFactoryProfit = parseInt(parsedData[I])
+     pyramidFactoryProfit = parseInt(parsedData[I])
      ++I
-     cocaineFactoryIncrease = parseInt(parsedData[I])
+     pyramidFactoryIncrease = parseInt(parsedData[I])
      ++I
      nukeFactories = parseInt(parsedData[I])
      ++I
