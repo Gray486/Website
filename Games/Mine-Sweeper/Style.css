@@ -53,7 +53,7 @@
   }
   
   .board > [data-status="number"] {
-    background-color: none;
+    background-color: #777;
   }
   
   .board > [data-status="marked"] {
