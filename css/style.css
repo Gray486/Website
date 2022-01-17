@@ -25,40 +25,40 @@ ul{
 }
 
 /* Header  */
-header, gamesheader{
+header{
     background-color: #ff5721;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: rgb(168, 39, 0) 6px solid;
 }
 
-header a, gamesheader a{
+header a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
     color: black;
 }
 
-header li, gamesheader li{
+header li{
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
 }
 
-header #name, gamesheader #name{
+header #name{
     float: left;
 }
 
-header #name h1, gamesheader #name h1{
+header #name h1{
     margin: 0;
 }
 
-header nav, gamesheader nav{
+header nav{
     float: right;
     margin-top: 10px;
 }
 
-header .highlight, header .current a, gamesheader .highlight, gamesheader .current a{
+header .highlight, header .current a{
     color: rgb(168, 39, 0)
 }
 
