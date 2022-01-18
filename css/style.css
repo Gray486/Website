@@ -26,10 +26,10 @@ ul{
 
 /* Header  */
 header{
-    background-color: #ff5721;
+    background-color: rgb(0,188,212);
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: rgb(168, 39, 0) 6px solid;
+    border-bottom: rgb(0,168,107) 6px solid;
 }
 
 header a{
