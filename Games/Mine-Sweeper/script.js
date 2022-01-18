@@ -43,8 +43,7 @@ function listMinesLeft() {
             count + row.filter(tile => tile.status === TILE_STATUSES.MARKED).length
         )
     }, 0)
-
-    document.getElementById("subtext").innerHTML = "Mines Left: " + (NUMBER_OF_MINES - markedTilesCount)
+        document.getElementById("subtext").innerHTML = "Mines Left: " + (NUMBER_OF_MINES - markedTilesCount)
 }
 
 function checkGameEnd(){
@@ -58,6 +57,11 @@ function checkGameEnd(){
 
     if(win){
         messageText.textContent = "You Win!!!"
+        board.forEach(row =>{
+            row.forEach(tile =>{
+                if (tile.status === TILE_STATUSES.MARKED || TILE_STATUSES.NUMBER || TILE_STATUSES.HIDDEN || TILE_STATUSES.MINE) {tile.status = TILE_STATUSES.Y}
+            })
+        })
     }
     if(lose){
         messageText.textContent = "You Lost, to restart just refresh the page."
@@ -76,19 +80,8 @@ function stopProp(e) {
 }
 
 //Settings
-document.addEventListener('DOMContentLoaded', function () {
-    var checkbox = document.getElementById("settingSwitch1");
-  
-    checkbox.addEventListener('change', function () {
-      if (checkbox.checked) {
-        // do this
-        showMineNum = true
-      } else {
-        // do that
-        showMineNum = false
-      }
-    })
-})
+
+document.getElementById("key").style.display = "none"
 
 document.addEventListener('DOMContentLoaded', function () {
     var checkbox = document.getElementById("settingSwitch2");
@@ -96,9 +89,11 @@ document.addEventListener('DOMContentLoaded', function () {
     checkbox.addEventListener('change', function () {
       if (checkbox.checked) {
         // do this
-        document.getElementById("key").style.display = "flex"
+        console.log("block")
+        document.getElementById("key").style.display = "block"
       } else {
         // do that
+        console.log("none")
         document.getElementById("key").style.display = "none"
       }
     })
