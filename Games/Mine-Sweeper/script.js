@@ -1,4 +1,7 @@
 // Display/UI
+document.getElementById("key0").style.display = "none"
+document.getElementById("key1").style.display = "none"
+
 var boardSize = window.prompt("Size of the board. (it will be a square so this is the length and width.)");
 var numberOfMines = window.prompt("Number of Mines on the map.");
 var showMineNum = false
@@ -77,9 +80,6 @@ function stopProp(e) {
 }
 
 //Settings
-
-document.getElementById("key0").style.display = "none"
-document.getElementById("key1").style.display = "none"
 
 document.addEventListener('DOMContentLoaded', function () {
     var checkbox = document.getElementById("settingSwitch2");
