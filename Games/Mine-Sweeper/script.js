@@ -1,7 +1,9 @@
 // Display/UI
-var boardSize = window.prompt("boardSize");
-var numberOfMines = window.prompt("numberOfMines");
+var boardSize = window.prompt("Size of the board. (it will be a square so this is the length and width.)");
+var numberOfMines = window.prompt("Number of Mines on the map.");
 var showMineNum = false
+
+var widthLengthMines = (boardSize * boardSize) + (numberOfMines * 10)
 
 import { TILE_STATUSES, createBoard, marktile, revealTile, checkWin, checkLose } from "./minesweeper.js"
 
@@ -12,14 +14,8 @@ const board = createBoard(BOARD_SIZE, NUMBER_OF_MINES)
 const boardElement = document.querySelector(".board")
 const messageText = document.querySelector(".subtext")
 
-start1()
-start2()
-
-function start1(){
 boardElement.style.setProperty("--size", BOARD_SIZE)
-}
 
-function start2(){
 board.forEach(row => {
     row.forEach(tile => {
         boardElement.append(tile.element)
@@ -35,7 +31,6 @@ board.forEach(row => {
     })
 })
 document.getElementById("subtext").innerHTML = "Mines Left: " + NUMBER_OF_MINES
-}
 
 function listMinesLeft() {
     const markedTilesCount = board.reduce((count, row) => {
@@ -59,9 +54,11 @@ function checkGameEnd(){
         messageText.textContent = "You Win!!!"
         board.forEach(row =>{
             row.forEach(tile =>{
-                if (tile.status === TILE_STATUSES.MARKED || TILE_STATUSES.NUMBER || TILE_STATUSES.HIDDEN || TILE_STATUSES.MINE) {tile.status = TILE_STATUSES.Y}
+                if ((tile.mine) && (tile.status === TILE_STATUSES.HIDDEN)) {widthLengthMines = widthLengthMines + 10}
+                if (tile.status === TILE_STATUSES.MARKED || TILE_STATUSES.NUMBER || TILE_STATUSES.HIDDEN || TILE_STATUSES.MINE) {tile.status = TILE_STATUSES.WIN}
             })
         })
+        document.getElementById("subsubtext").innerHTML = "Points: " + widthLengthMines
     }
     if(lose){
         messageText.textContent = "You Lost, to restart just refresh the page."
@@ -81,7 +78,8 @@ function stopProp(e) {
 
 //Settings
 
-document.getElementById("key").style.display = "none"
+document.getElementById("key0").style.display = "none"
+document.getElementById("key1").style.display = "none"
 
 document.addEventListener('DOMContentLoaded', function () {
     var checkbox = document.getElementById("settingSwitch2");
@@ -90,11 +88,13 @@ document.addEventListener('DOMContentLoaded', function () {
       if (checkbox.checked) {
         // do this
         console.log("block")
-        document.getElementById("key").style.display = "block"
+        document.getElementById("key0").style.display = "block"
+        document.getElementById("key1").style.display = "block"
       } else {
         // do that
         console.log("none")
-        document.getElementById("key").style.display = "none"
+        document.getElementById("key0").style.display = "none"
+        document.getElementById("key1").style.display = "none"
       }
     })
 })

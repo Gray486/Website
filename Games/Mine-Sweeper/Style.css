@@ -68,9 +68,17 @@
     background-color: red;
   }
 
+  .board > [data-status="win"] {
+    background-color: lightgreen;
+  }
+
   .settings{
     color: white ;
     background-color: #333;
+  }
+
+  .blacklink{
+    color: black;
   }
 
 

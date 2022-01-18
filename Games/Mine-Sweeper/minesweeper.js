@@ -6,7 +6,8 @@ export const TILE_STATUSES = {
     NUMBER: "number",
     MARKED: "marked",
     Y: "y",
-    N: "n"
+    N: "n",
+    WIN: "win"
 }
 
 export function createBoard(boardSize, minesNumber) {
@@ -74,6 +75,7 @@ export function revealTile(board, tile){
     }else{
         tile.element.textContent = mines.length
     }
+
 }
 
 export function checkWin(board){
