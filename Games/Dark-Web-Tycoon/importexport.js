@@ -13,7 +13,7 @@ function download(filename, text) {
   }
   
  function doDownload()  {
-  download("save.txt",[balance, bitCoinUpgradeNumber, bitCoinUpgradeCost, bitcoinProfit, bitcoinIcrease, totalBitCoinPerSecond, gunFactories, gunFactoryCost, gunFactoryProfit, gunFactoryIncrease, bombFactories, bombFactoryCost, bombFactoryProfit, bombFactoryIncrease, humanLeatherFactories, humanLeatherFactoryCost, humanLeatherFactoryProfit, humanLeatherFactoryIncrease, marijuanaFactories, marijuanaFactoryCost, marijuanaFactoryProfit, marijuanaFactoryIncrease, cocaineFactories, cocaineFactoryCost, cocaineFactoryProfit, cocaineFactoryIncrease, nukeFactories, nukeFactoryCost, nukeFactoryProfit, nukeFactoryIncrease]);
+  download("save.txt",[balance, bitCoinUpgradeNumber, bitCoinUpgradeCost, bitcoinProfit, bitcoinIcrease, totalBitCoinPerSecond, gunFactories, gunFactoryCost, gunFactoryProfit, gunFactoryIncrease, bombFactories, bombFactoryCost, bombFactoryProfit, bombFactoryIncrease, humanLeatherFactories, humanLeatherFactoryCost, humanLeatherFactoryProfit, humanLeatherFactoryIncrease, malewareFactories, malewareFactoryCost, malewareFactoryProfit, malewareFactoryIncrease, pyramidFactories, pyramidFactoryCost, pyramidFactoryProfit, pyramidFactoryIncrease, nukeFactories, nukeFactoryCost, nukeFactoryProfit, nukeFactoryIncrease]);
   }
 
-//import code is in importexport.js at the bottem so all varibles will be loaded.
+//import code is in main.js at the bottem so all varibles will be loaded.

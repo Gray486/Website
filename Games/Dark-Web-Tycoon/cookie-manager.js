@@ -40,14 +40,22 @@ humanLeatherFactories = getCookie ("humanLeatherFactories");
 humanLeatherFactoryCost = getCookie ("humanLeatherFactoryCost");
 humanLeatherFactoryProfit = getCookie ("humanLeatherFactoryProfit");
 humanLeatherFactoryIncrease = getCookie("humanLeatherFactoryIncrease");
-marijuanaFactories = getCookie ("marijuanaFactories");
-marijuanaFactoryCost = getCookie ("marijuanaFactoryCost");
-marijuanaFactoryProfit = getCookie ("marijuanaFactoryProfit");
-marijuanaFactoryIncrease = getCookie ("marijuanaFactoryIncrease");
-cocaineFactories = getCookie ("cocainFactories");
-cocaineFactoryCost = getCookie ("cocaineFactoryCost");
-cocaineFactoryProfit = getCookie ("cocaineFactoryProfit");
-cocaineFactoryIncrease = getCookie ("cocaineFactoryIncrease");
+malewareFactories = getCookie ("malewareFactories");
+malewareFactoryCost = getCookie ("malewareFactoryCost");
+malewareFactoryProfit = getCookie ("malewareFactoryProfit");
+malewareFactoryIncrease = getCookie ("malewareFactoryIncrease");
+malewareFactories = getCookie ("marijuanaFactories");
+malewareFactoryCost = getCookie ("marijuanaFactoryCost");
+malewareFactoryProfit = getCookie ("marijuanaFactoryProfit");
+malewareFactoryIncrease = getCookie ("marijuanaFactoryIncrease");
+pyramidFactories = getCookie ("pyramidFactories");
+pyramidFactoryCost = getCookie ("pyramidFactoryCost");
+pyramidFactoryProfit = getCookie ("pyramidFactoryProfit");
+pyramidFactoryIncrease = getCookie ("pyramidFactoryIncrease");
+pyramidFactories = getCookie ("cocaineFactories");
+pyramidFactoryCost = getCookie ("cocaineFactoryCost");
+pyramidFactoryProfit = getCookie ("cocaineFactoryProfit");
+pyramidFactoryIncrease = getCookie ("cocaineFactoryIncrease");
 nukeFactories = getCookie ("nukeFactories")
 nukeFactoryCost = getCookie ("nukeFactoryCost")
 nukeFactoryIncrease = getCookie ("nukeFactoryIncrease")
@@ -74,14 +82,14 @@ setCookie("humanLeatherFactories", humanLeatherFactories);
 setCookie("humanLeatherFactoryCost", humanLeatherFactoryCost);
 setCookie("humanLeatherFactoryProfit", humanLeatherFactoryProfit);
 setCookie("humanLeatherFactoryIncrease", humanLeatherFactoryIncrease);
-setCookie("marijuanaFactories", marijuanaFactories);
-setCookie("marijuanaFactoryCost", marijuanaFactoryCost);
-setCookie("marijuanaFactoryProfit", marijuanaFactoryProfit);
-setCookie("marijuanaFactoryIncrease", marijuanaFactoryIncrease);
-setCookie("cocainFactories", cocaineFactories);
-setCookie("cocaineFactoryCost", cocaineFactoryCost);
-setCookie("cocaineFactoryProfit", cocaineFactoryProfit);
-setCookie("cocaineFactoryIncrease", cocaineFactoryIncrease);
+setCookie("malewareFactories", malewareFactories);
+setCookie("malewareFactoryCost", malewareFactoryCost);
+setCookie("malewareFactoryProfit", malewareFactoryProfit);
+setCookie("malewareFactoryIncrease", malewareFactoryIncrease);
+setCookie("cocainFactories", pyramidFactories);
+setCookie("pyramidFactoryCost", pyramidFactoryCost);
+setCookie("pyramidFactoryProfit", pyramidFactoryProfit);
+setCookie("pyramidFactoryIncrease", pyramidFactoryIncrease);
 setCookie("nukeFactories", nukeFactories);
 setCookie("nukeFactoryCost", nukeFactoryCost)
 setCookie("nukeFactoryIncrease", nukeFactoryIncrease)
