@@ -1,7 +1,11 @@
-SusGames.org
+SusGames.org, Copyright © 2022
 
-Made by Gray486
+>>LICENCE: (https://github.com/Gray486/SusGames.org/blob/live/LICENSE.md)<<
 
-Unblocked Domains: http://sus.grayjn.com / http://susgames.grayjn.com
+Unblocked Domains: http://sus.grayjn.com // http://susgames.grayjn.com
 
 Offical Domain: http://www.susgames.org
+
+People behind SusGames.org
+    Gray486: Founder and main coder
+    SugarCane69: Beginner coder
