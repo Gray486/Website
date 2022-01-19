@@ -176,7 +176,6 @@ gamesheader{
   background-color: #ff5721;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: rgb(168, 39, 0) 6px solid;
 }
 
 gamesheader a{
@@ -206,5 +205,5 @@ gamesheader nav{
 }
 
 gamesheader .highlight, gamesheader .current a{
-  color: rgb(168, 39, 0)
+  color: rgb(1, 134, 86)
 }
