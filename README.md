@@ -7,5 +7,7 @@ Unblocked Domains: http://sus.grayjn.com
 Offical Domain: http://www.susgames.org
 
 People behind SusGames.org
+
     Gray486: Founder and main coder
+    
     SugarCane69: Beginner coder
