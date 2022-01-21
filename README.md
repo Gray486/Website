@@ -9,5 +9,5 @@ Offical Domain: http://www.susgames.org
 People behind SusGames.org:
 
 Gray486: Founder and main coder
-<br>
+
 SugarCane69: Beginner coder
