@@ -1,3 +1,9 @@
+/* Fonts */
+@font-face {
+    font-family: joffery;
+    src: url(fonts/In\ your\ face\,\ joffrey!.ttf);
+}
+
 body{
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding:0;
@@ -47,6 +53,8 @@ header li{
 
 header #name{
     float: left;
+    font-family: joffery;
+    font-size: 30px;
 }
 
 header #name h1{
