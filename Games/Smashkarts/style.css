@@ -1,10 +1,5 @@
 /* Header */
-/* COPY AND PASTE FOR USE ON OTHER GAMES */
-@font-face {
-  font-family: joffery;
-  src: url(/css/fonts/In\ your\ face\,\ joffrey!.ttf);
-}
-
+/* IF GOING TO USE FOR OTHER GAMES MAKE SURE TO ADJUST THE "msbody" TAG. (msbody stands for "minesweeper body" not to be confused with minebody witch is used for the actual game) */
 .container{
     width:80%;
     margin: auto;
@@ -43,7 +38,6 @@
   
   gamesheader #name h1{
     margin: 0;
-    font-family: joffery;
   }
   
   gamesheader nav{
