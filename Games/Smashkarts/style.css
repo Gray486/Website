@@ -34,6 +34,7 @@
   
   gamesheader #name{
     float: left;
+    font-family: joffery;
   }
   
   gamesheader #name h1{
