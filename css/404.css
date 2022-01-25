@@ -1,17 +1,17 @@
 #sus{
-    font-size: 100px;
+    font-size: 130px;
     color: red;
-    font-family: sans-serif;
+    font-family: joffery;
     position: absolute;
-    left: 30%;
+    left: 35%;
     top: 20%;
 }
 #sus2{
-    font-size: 40px;
+    font-size: 90px;
     color: black;
-    font-family: sans-serif;
+    font-family: joffery;
     position: absolute;
-    left: 30%;
-    right: 30%;
+    left: 10%;
+    right: 10%;
     top: 40%;
 }
