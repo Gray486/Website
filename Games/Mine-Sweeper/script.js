@@ -2,8 +2,14 @@
 document.getElementById("key0").style.display = "none"
 document.getElementById("key1").style.display = "none"
 
+while(!boardSize){
 var boardSize = window.prompt("Size of the board. (it will be a square so this is the length and width.)");
+}
+
+while(!numberOfMines){
 var numberOfMines = window.prompt("Number of Mines on the map.");
+}
+
 var showMineNum = false
 
 var widthLengthMines = (boardSize * boardSize) + (numberOfMines * 10)
