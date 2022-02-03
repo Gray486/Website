@@ -1,0 +1,56 @@
+/* Header */
+/* IF GOING TO USE FOR OTHER GAMES MAKE SURE TO ADJUST THE "msbody" TAG. (msbody stands for "minesweeper body" not to be confused with minebody witch is used for the actual game) */
+@font-face {
+    font-family: joffery;
+    src: url(/css/fonts/InYourFaceJoffrey.ttf);
+  }
+  
+  .container{
+      width:80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    
+    msbody{
+      font: 15px/1.5 Arial, Helvetica, sans-serif;
+      padding:0;
+      margin:0;
+      background-color:#333;
+    }
+    
+    gamesheader{
+      background-color: #ff5721;
+      padding-top: 30px;
+      min-height: 70px;
+    }
+    
+    gamesheader a{
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 16px;
+      color: black;
+    }
+    
+    gamesheader li{
+      float: left;
+      display: inline;
+      padding: 0 20px 0 20px;
+    }
+    
+    gamesheader #name{
+      float: left;
+    }
+    
+    gamesheader #name h1{
+      margin: 0;
+      font-family: joffery;
+    }
+    
+    gamesheader nav{
+      float: right;
+      margin-top: 0px;
+    }
+    
+    gamesheader .highlight, gamesheader .current a{
+      color: rgb(1, 134, 86)
+    }
