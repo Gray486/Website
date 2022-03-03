@@ -2,7 +2,7 @@ SusGames.org, Copyright © 2022
 
 LICENCE: https://github.com/Gray486/SusGames.org/blob/live/LICENSE.md
 
-Unblocked Domains: http://sus.grayjn.com
+Unblocked Domain: http://sus.grayjn.com
 
 Offical Domain: http://www.susgames.org
 <br>
