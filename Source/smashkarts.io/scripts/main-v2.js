@@ -10,7 +10,7 @@ function setV(val2)
 
 function getReferrerUrl()
 {
-  var url = "https://smashkarts.io"
+  var url = (window.location != window.parent.location)
     ? document.referrer
     : document.location.href;
     return url;

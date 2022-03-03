@@ -2,18 +2,32 @@
 
 function requestMainMenuBanner()
 {
+  if(!isMobile())
+  {
     aiptag.cmd.display.push(function() { aipDisplayTag.display('smashkarts-io_300x250')});
+  }
 }
 
 function requestWinCeremonyBanner(interstialRequested)
 {
+  if(!isMobile())
+  {
     aiptag.cmd.display.push(function() { aipDisplayTag.display('smashkarts-io_300x250_2')});
+  }
 }
 
 
 function requestLongBanner()
 {
-    aiptag.cmd.display.push(function() { aipDisplayTag.display('smashkarts-io_728x90')});
+  if(!isMobile())
+  {
+      //aiptag.cmd.display.push(function() { aipDisplayTag.display('smashkarts-io_728x90')});
+      aiptag.cmd.display.push(function() { aipDisplayTag.display('smashkarts-io_970x250')});
+  }
+  else
+  {
+      //aiptag.cmd.display.push(function() { aipDisplayTag.display('smashkarts-io_320x100')});
+  }
 }
 
 function showInterstitial(unusedParam, interstitialType, interstitialName)
