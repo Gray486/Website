@@ -146,3 +146,10 @@ footer{
 .gameslist{
     float: left;
 }
+
+/* Search Bar */
+
+#search-bar-div {
+    float: left;
+    top: 0px;
+}
