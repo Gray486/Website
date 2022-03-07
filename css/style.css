@@ -74,7 +74,6 @@ header a:hover{
 }
 
 /* Showcase */
-
 #showcase{
     min-height: 400px;
     
@@ -111,31 +110,13 @@ footer{
     color: black;
 }
 
+/* Google Forms */
 #forms .form1 iframe{
     float: left;
     padding: 0;
 }
 
-/* Hides/Shows the menu for games */
-#hideMenu {
-    border: none;
-    position: absolute;
-    left: 0%;
-    top: 0px;
-    background-color: #ff5721;
-    width: 100%;
-    color: rgb(168, 39, 0);
-}
-
-#hideMenu:hover{
-    color: #ccccccde;
-}
-
-#gamesdirads{
-    position:absolute;
-    top: 296px;
-    height: 350px;
-}
+/* Game CSS Settings */
 
 .gamesdirimg{
     height: 300px;
@@ -148,7 +129,6 @@ footer{
 }
 
 /* Search Bar */
-
 #search-bar-div {
     float: left;
     top: 0px;
