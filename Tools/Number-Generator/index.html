@@ -1,29 +1,38 @@
 <meta charset="utd-8">
 <meta name="vieport" content="width=device-width"> 
-<title>Gray JN | Home</title>
+<title>SusGames.org | Num Generator</title>
 <body>
 
     <header>
        <div class="container">
             <div id="name">
-               <h1>Gray JN</h1>
+               <h1>SusGames.org</h1>
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="./">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="/Games">Games</a></li>
-                    <li><a href="/Tools">Tools</a></li>
+                    <li class="current"><a href="/Tools">Tools</a></li>
                     <li><a href="/More">More</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
+<div style="text-align:center">
+    <h1 id="output">The number that was generated is: ___</h1>
+    <h2>Max Number:<input name="maxNum" type="text"><br>
+    Min Number:<input name="minNum" type="text"></h2>
+    <label for="hide">
+        <input type="checkbox" id="hide">  Hide Numbers
+    </label><br>
+    <label for="once">
+        <input type="checkbox" id="once">  Number can only generate once
+    </label><br>
     <button class="middle" style="background-size: cover; background-color: rgb(128, 170, 219);" type="button" onclick="nextNumber();">Next Number</span></button>
     <button class="middle" style="background-size: cover; background-color: rgb(86, 206, 126);" type="button" onclick="start();">Start</span></button>
-
+    <button class="middle" style="background-size: cover; background-color: rgb(247, 151, 151);" type="button" onclick="window.location.replace('./');">Reset</span></button>
+</div>
 </body>
 
 <script src="main.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="/css/style.css">
