@@ -1,4 +1,4 @@
-var games = ["dark web tycoon", "mine sweeper", "smashkarts", "tank trouble", "swamp attack", "slope", "1v1.lol", "madalinstuntcars", "burrito bison", "cookie clicker"]
+var games = ["dark web tycoon", "mine sweeper", "smashkarts", "tank trouble", "swamp attack", "slope", "1v1.lol", "madalinstuntcars", "burrito bison", "cookie clicker", "the impossible quiz", "the impossible quiz 2"]
 let searchInput = ""
 var filteredGames
 var removedElements = []
