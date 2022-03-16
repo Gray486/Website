@@ -26,7 +26,7 @@ function start() {
     minNum = parseInt(document.getElementsByName("minNum")[0].value) - 1;
     maxNum -= minNum
   }} else {
-    alert("ERROR: Please enter the required feilds.")
+    alert("ERROR: Please enter the required fields.")
   }
 }
 
