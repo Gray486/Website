@@ -1,3 +1,5 @@
+No longer working on. Paths are absolute, so website breaks on GH pages.
+
 SusGames.org, Copyright © 2022
 
 LICENCE: https://github.com/Gray486/SusGames.org/blob/live/LICENSE.md
